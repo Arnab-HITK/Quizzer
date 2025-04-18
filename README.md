@@ -18,4 +18,3 @@ Welcome to Quizzer, a dynamic quiz platform where you can test your knowledge ac
 2. **Choose** question count (5/10/15/20)
 3. **Answer** each question within 15 seconds
 4. **Track** your score in real-time
-5. **Submit** your score to the leaderboard
