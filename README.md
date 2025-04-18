@@ -1,6 +1,6 @@
 # 🧠 Quizzer - Multi-Category Quiz Challenge
 
-Welcome to Quizzer, a dynamic quiz platform where you can test your knowledge across diverse categories with customizable difficulty!
+Welcome to Quizzer, a dynamic quiz platform where you can test your knowledge across diverse categories with customizable quiz modes!
 
 ## 🎯 Features
 ✅ **4 Exciting Categories**  
