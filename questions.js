@@ -1,427 +1,427 @@
 // Array of questions grouped by category (20 questions each)
 
 const questions = [
-    {
-      category: "programming",
-      questions: [
-        {
-          question: "What does HTML stand for?",
-          options: ["Hyper Text Pre Processor", "Hyper Text Markup Language", "Hyper Text Multiple Language", "Hyper Tool Multi Language"],
-          correctAnswer: 1,
-        },
-        {
-          question: "Which of the following is a correct way to declare a variable in JavaScript?",
-          options: ["var x = 10;", "variable x = 10;", "int x = 10;", "let 10 = x;"],
-          correctAnswer: 0,
-        },
-        {
-          question: "How do you write comment in Python?",
-          options: ["// This is a comment", "# This is a comment", "/* This is a comment */", "<!-- This is a comment -->"],
-          correctAnswer: 1,
-        },
-        {
-          question: "What does CSS stand for?",
-          options: ["Cascading Style Sheets", "Colorful Style Sheets", "Computer Style Sheets", "Cascading Simple Sheets"],
-          correctAnswer: 0,
-        },
-        {
-          question: "In JavaScript, how do you create a function?",
-          options: ["create function myFunction()", "def function myFunction()", "func myFunction()", "function myFunction()"],
-          correctAnswer: 3,
-        },
-        {
-          question: "What does the 'typeof' operator do in JavaScript?",
-          options: ["Checks the type of a variable", "Declares a variable", "Assigns a value to a variable", "Converts a variable to another type"],
-          correctAnswer: 0,
-        },
-        {
-          question: "In C, how do you define a function?",
-          options: ["function myFunction()", "def myFunction()", "void myFunction()", "func myFunction()"],
-          correctAnswer: 2,
-        },
-        {
-          question: "Which of the following is a characteristic of Python?",
-          options: ["Compiled language", "Dynamic typing", "Low-level language", "Static typing"],
-          correctAnswer: 1,
-        },
-        {
-          question: "Which language is used for Android development?",
-          options: ["Python", "Java", "JavaScript", "C++"],
-          correctAnswer: 1,
-        },
-        {
-          question: "What is the purpose of the 'forEach()' method in JavaScript?",
-          options: ["Removes duplicate elements from an array", "Filters elements in an array", "Sorts an array", "Iterates through each element in an array"],
-          correctAnswer: 3,
-        },
-        {
-          question: "What does the 'return' keyword do in a function?",
-          options: ["Ends the function and returns a value", "Continues the function", "Exits the function without value", "Ends the program execution"],
-          correctAnswer: 0,
-        },
-        {
-          question: "Which of the following is NOT a semantic HTML element?",
-          options: ["<header>", "<footer>", "<div>", "<article>"],
-          correctAnswer: 2,
-        },
-        {
-          question: "What is the primary purpose of a 'for' loop in programming?",
-          options: ["Repeat code for a specified number of times", "Repeat code until a condition is true", "Define a function", "Evaluate conditions in the loop"],
-          correctAnswer: 0,
-        },
-        {
-          question: "Which data structure is ideal for LIFO (Last In First Out)?",
-          options: ["Queue", "Stack", "Linked list", "Array"],
-          correctAnswer: 1,
-        },
-        {
-          question: "Which command is used in Git to store changes in the repository?",
-          options: ["git commit", "git push", "git pull", "git add"],
-          correctAnswer: 0,
-        },
-        {
-          question: "What does the 'map()' function do in JavaScript?",
-          options: ["Sorts an array", "Filters out items", "Creates a new array", "Modifies the original array"],
-          correctAnswer: 2,
-        },
-        {
-          question: "What is an IDE?",
-          options: ["An Integrated Development Environment", "A function for code execution", "An interpreter", "An input method for writing code"],
-          correctAnswer: 0,
-        },
-        {
-          question: "Which of the following is a feature of object-oriented programming?",
-          options: ["Encapsulation", "Modularity", "Recursion", "Memory Management"],
-          correctAnswer: 0,
-        },
-        {
-          question: "What does SQL stand for?",
-          options: ["Simple Question Language", "Systematic Query Language", "Standard Question Language", "Structured Query Language"],
-          correctAnswer: 3,
-        },
-        {
-          question: "Which of these is an example of a non-relational database?",
-          options: ["MongoDB", "MySQL", "PostgreSQL", "Oracle"],
-          correctAnswer: 0,
-        },
-      ],
-    },
-  
-    {
-      category: "sports",
-      questions: [
-        {
-          question: "Which country won the FIFA World Cup in 2018?",
-          options: ["France", "Germany", "Brazil", "Argentina"],
-          correctAnswer: 0,
-        },
-        {
-          question: "How many players are on a basketball court for one team at a time?",
-          options: ["4", "5", "6", "7"],
-          correctAnswer: 1,
-        },
-        {
-          question: "Which sport uses the term 'home run'?",
-          options: ["Cricket", "Baseball", "Football", "Tennis"],
-          correctAnswer: 1,
-        },
-        {
-          question: "In tennis, what is a zero score called?",
-          options: ["Nil", "Zero", "Love", "Nada"],
-          correctAnswer: 2,
-        },
-        {
-          question: "Which country hosted the 2016 Summer Olympics?",
-          options: ["Japan", "China", "Brazil", "Russia"],
-          correctAnswer: 2,
-        },
-        {
-          question: "Which athlete has won the most Olympic gold medals?",
-          options: ["Usain Bolt", "Michael Phelps", "Carl Lewis", "Larisa Latynina"],
-          correctAnswer: 1,
-        },
-        {
-          question: "In which sport would you perform a slam dunk?",
-          options: ["Volleyball", "Basketball", "Tennis", "Badminton"],
-          correctAnswer: 1,
-        },
-        {
-          question: "Which country is famous for originating the sport of cricket?",
-          options: ["Australia", "India", "England", "South Africa"],
-          correctAnswer: 2,
-        },
-        {
-          question: "How many holes are in a standard round of golf?",
-          options: ["9", "18", "27", "36"],
-          correctAnswer: 1,
-        },
-        {
-          question: "Which of these is NOT a Grand Slam tennis tournament?",
-          options: ["Wimbledon", "US Open", "Australian Open", "Indian Open"],
-          correctAnswer: 3,
-        },
-        {
-          question: "What is the maximum score possible in a single frame of bowling?",
-          options: ["10", "20", "30", "40"],
-          correctAnswer: 0,
-        },
-        {
-          question: "Which sport is associated with the term 'checkmate'?",
-          options: ["Chess", "Boxing", "Fencing", "Wrestling"],
-          correctAnswer: 0,
-        },
-        {
-          question: "Which country won the first ever FIFA World Cup in 1930?",
-          options: ["Brazil", "Uruguay", "Argentina", "Italy"],
-          correctAnswer: 1,
-        },
-        {
-          question: "In American football, how many points is a touchdown worth?",
-          options: ["3", "6", "7", "9"],
-          correctAnswer: 1,
-        },
-        {
-          question: "Which athlete is known as 'The Greatest' in boxing?",
-          options: ["Mike Tyson", "Muhammad Ali", "Floyd Mayweather", "George Foreman"],
-          correctAnswer: 1,
-        },
-        {
-          question: "Which sport uses terms like 'birdie' and 'eagle'?",
-          options: ["Badminton", "Golf", "Tennis", "Archery"],
-          correctAnswer: 1,
-        },
-        {
-          question: "How many players are there in a standard soccer team?",
-          options: ["9", "10", "11", "12"],
-          correctAnswer: 2,
-        },
-        {
-          question: "Which country has won the most FIFA World Cups?",
-          options: ["Germany", "Argentina", "Brazil", "Italy"],
-          correctAnswer: 2,
-        },
-        {
-          question: "In which year did the first modern Olympic Games take place?",
-          options: ["1886", "1896", "1906", "1916"],
-          correctAnswer: 1,
-        },
-        {
-          question: "Which sport is associated with the term 'hat-trick'?",
-          options: ["Cricket", "Tennis", "Golf", "Swimming"],
-          correctAnswer: 0,
-        },
-      ],
-    },
-  
-    {
-      category: "mathematics",
-      questions: [
-        {
-          question: "What is the square root of 144?",
-          options: ["10", "11", "12", "13"],
-          correctAnswer: 2,
-        },
-        {
-          question: "What is 15 × 13?",
-          options: ["180", "185", "195", "200"],
-          correctAnswer: 2,
-        },
-        {
-          question: "What is the value of 8³?",
-          options: ["512", "216", "256", "128"],
-          correctAnswer: 0,
-        },
-        {
-          question: "What is 48 ÷ 6?",
-          options: ["7", "8", "9", "10"],
-          correctAnswer: 1,
-        },
-        {
-          question: "What is the value of 3 + 5 × 4?",
-          options: ["20", "22", "24", "23"],
-          correctAnswer: 3,
-        },
-        {
-          question: "What is the sum of the angles in a triangle?",
-          options: ["180°", "360°", "90°", "270°"],
-          correctAnswer: 0,
-        },
-        {
-          question: "What is the perimeter of a square with a side length of 4 cm?",
-          options: ["12 cm", "16 cm", "20 cm", "24 cm"],
-          correctAnswer: 1,
-        },
-        {
-          question: "What is 9 × 12?",
-          options: ["105", "110", "108", "120"],
-          correctAnswer: 2,
-        },
-        {
-          question: "What is the value of 16 ÷ 4?",
-          options: ["2", "3", "4", "5"],
-          correctAnswer: 2,
-        },
-        {
-          question: "What is 25% of 200?",
-          options: ["30", "40", "50", "60"],
-          correctAnswer: 2,
-        },
-        {
-          question: "What is the area of a rectangle with length 5 cm and width 8 cm?",
-          options: ["40 cm²", "50 cm²", "55 cm²", "60 cm²"],
-          correctAnswer: 0,
-        },
-        {
-          question: "What is the value of 10 ÷ 2 + 3?",
-          options: ["8", "7", "9", "6"],
-          correctAnswer: 1,
-        },
-        {
-          question: "What is the greatest common divisor (GCD) of 24 and 36?",
-          options: ["4", "6", "8", "12"],
-          correctAnswer: 3,
-        },
-        {
-          question: "What is the least common multiple (LCM) of 6 and 8?",
-          options: ["24", "32", "48", "56"],
-          correctAnswer: 0,
-        },
-        {
-          question: "What is the value of 2³ × 3?",
-          options: ["12", "15", "18", "24"],
-          correctAnswer: 0,
-        },
-        {
-          question: "What is the value of 10 × (5 + 3)?",
-          options: ["80", "70", "60", "50"],
-          correctAnswer: 1,
-        },
-        {
-          question: "What is the value of 14 × 14?",
-          options: ["186", "196", "206", "216"],
-          correctAnswer: 1,
-        },
-        {
-          question: "What is the sum of the first 10 positive integers?",
-          options: ["50", "55", "60", "65"],
-          correctAnswer: 1,
-        },
-        {
-          question: "What is the area of a circle with a radius of 3 cm? (Use π = 3.14)",
-          options: ["28.26 cm²", "31.42 cm²", "36.14 cm²", "39.14 cm²"],
-          correctAnswer: 0,
-        },
-        {
-          question: "What is the value of 50% of 80?",
-          options: ["30", "35", "40", "45"],
-          correctAnswer: 2,
-        },
-      ],
-    },
-  
-    {
-      category: "entertainment",
-      questions: [
-        {
-          question: "Who won the Academy Award for Best Actor in 2022?",
-          options: ["Leonardo DiCaprio", "Will Smith", "Joaquin Phoenix", "Matthew McConaughey"],
-          correctAnswer: 1,
-        },
-        {
-          question: "Which movie won the Academy Award for Best Picture in 2021?",
-          options: ["Parasite", "1917", "The Shape of Water", "Nomadland"],
-          correctAnswer: 3,
-        },
-        {
-          question: "Who played the character of Jack Dawson in the movie Titanic?",
-          options: ["Leonardo DiCaprio", "Brad Pitt", "Johnny Depp", "Tom Hanks"],
-          correctAnswer: 0,
-        },
-        {
-          question: "Which TV show featured the characters Daenerys Targaryen and Jon Snow?",
-          options: ["Breaking Bad", "Game of Thrones", "The Witcher", "Vikings"],
-          correctAnswer: 1,
-        },
-        {
-          question: "Who is known as the 'King of Pop'?",
-          options: ["Michael Jackson", "Prince", "Whitney Houston", "Elvis Presley"],
-          correctAnswer: 0,
-        },
-        {
-          question: "Which superhero is known for saying, 'I am Iron Man'?",
-          options: ["Black Panther", "Captain America", "Thor", "Iron Man"],
-          correctAnswer: 3,
-        },
-        {
-          question: "Which movie franchise includes a character named Luke Skywalker?",
-          options: ["Guardians of the Galaxy", "Star Wars", "The Matrix", "Star Trek"],
-          correctAnswer: 1,
-        },
-        {
-          question: "Who played the character of Hermione Granger in the Harry Potter film series?",
-          options: ["Emma Watson", "Anne Hathaway", "Maggie Smith", "Natalie Portman"],
-          correctAnswer: 0,
-        },
-        {
-          question: "Who directed the movie 'Inception'?",
-          options: ["James Cameron", "Steven Spielberg", "Christopher Nolan", "Martin Scorsese"],
-          correctAnswer: 2,
-        },
-        {
-          question: "Which artist released the album 'Lover' in 2019?",
-          options: ["Billie Eilish", "Taylor Swift", "Ed Sheeran", "Ariana Grande"],
-          correctAnswer: 1,
-        },
-        {
-          question: "What was the first video game to feature Mario?",
-          options: ["Mario Kart", "Super Mario Bros.", "Donkey Kong", "The Legend of Zelda"],
-          correctAnswer: 2,
-        },
-        {
-          question: "Which movie features the famous line, 'Here's looking at you, kid'?",
-          options: ["Casablanca", "Citizen Kane", "The Godfather", "Gone with the Wind"],
-          correctAnswer: 0,
-        },
-        {
-          question: "Who created the comic book character Spider-Man?",
-          options: ["Jack Kirby", "Stan Lee", "Steve Ditko", "John Romita"],
-          correctAnswer: 1,
-        },
-        {
-          question: "In which movie did Heath Ledger portray the Joker?",
-          options: ["The Dark Knight", "Batman Begins", "The Dark Knight Rises", "Joker"],
-          correctAnswer: 0,
-        },
-        {
-          question: "Which band is known for the hit song 'Bohemian Rhapsody'?",
-          options: ["The Rolling Stones", "Led Zeppelin", "Queen", "The Beatles"],
-          correctAnswer: 2,
-        },
-        {
-          question: "Which actress starred as Katniss Everdeen in 'The Hunger Games'?",
-          options: ["Kristen Stewart", "Shailene Woodley", "Jennifer Lawrence", "Emma Stone"],
-          correctAnswer: 2,
-        },
-        {
-          question: "Who played the role of the Joker in the 2019 movie 'Joker'?",
-          options: ["Heath Ledger", "Johnny Depp", "Joaquin Phoenix", "Jared Leto"],
-          correctAnswer: 2,
-        },
-        {
-          question: "Which Disney animated film features the song 'A Whole New World'?",
-          options: ["Cinderella", "Aladdin", "Beauty and the Beast", "The Little Mermaid"],
-          correctAnswer: 1,
-        },
-        {
-          question: "Which TV series features the characters of Walter White and Jesse Pinkman?",
-          options: ["Narcos", "Better Call Saul", "The Sopranos", "Breaking Bad"],
-          correctAnswer: 3,
-        },
-        {
-          question: "Who sang the hit song 'Shape of You'?",
-          options: ["Justin Bieber", "Ariana Grande", "Sam Smith", "Ed Sheeran"],
-          correctAnswer: 3,
-        },
-      ],
-    },
-  ];
+  {
+    category: "dsa",
+    questions: [
+      {
+        question: "Which data structure uses FIFO principle?",
+        options: ["Stack", "Queue", "Tree", "Graph"],
+        correctAnswer: 1,
+      },
+      {
+        question: "What is the time complexity of binary search on a sorted array?",
+        options: ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+        correctAnswer: 1,
+      },
+      {
+        question: "Which of the following is a self-balancing binary search tree?",
+        options: ["BST", "AVL Tree", "Linked List", "Heap"],
+        correctAnswer: 1,
+      },
+      {
+        question: "In a max-heap, the largest element is located at:",
+        options: ["Root", "Leaf", "Left child", "Right child"],
+        correctAnswer: 0,
+      },
+      {
+        question: "Which sorting algorithm is stable?",
+        options: ["Quick Sort", "Heap Sort", "Merge Sort", "Selection Sort"],
+        correctAnswer: 2,
+      },
+      {
+        question: "Which data structure is used for implementing recursion?",
+        options: ["Queue", "Stack", "Array", "Linked List"],
+        correctAnswer: 1,
+      },
+      {
+        question: "What is the worst-case time complexity of linear search?",
+        options: ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+        correctAnswer: 1,
+      },
+      {
+        question: "Which graph traversal uses a queue?",
+        options: ["DFS", "BFS", "Inorder", "Preorder"],
+        correctAnswer: 1,
+      },
+      {
+        question: "Which of these is NOT a hashing technique?",
+        options: ["Chaining", "Open Addressing", "Binary Search", "Double Hashing"],
+        correctAnswer: 2,
+      },
+      {
+        question: "What is the height of a balanced binary tree with n nodes?",
+        options: ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+        correctAnswer: 1,
+      },
+      {
+        question: "Which algorithm is used to find the shortest path in a weighted graph?",
+        options: ["Dijkstra's Algorithm", "DFS", "BFS", "Prim's Algorithm"],
+        correctAnswer: 0,
+      },
+      {
+        question: "Which data structure is used in a LRU cache implementation?",
+        options: ["Stack", "Queue", "HashMap + Doubly Linked List", "Heap"],
+        correctAnswer: 2,
+      },
+      {
+        question: "Which is the best-case time complexity of Quick Sort?",
+        options: ["O(n)", "O(n log n)", "O(n^2)", "O(log n)"],
+        correctAnswer: 1,
+      },
+      {
+        question: "Which of the following is a divide-and-conquer algorithm?",
+        options: ["Merge Sort", "Bubble Sort", "Insertion Sort", "Linear Search"],
+        correctAnswer: 0,
+      },
+      {
+        question: "A complete binary tree of height h has maximum number of nodes equal to:",
+        options: ["2^h - 1", "2^(h+1) - 1", "h^2", "2^h"],
+        correctAnswer: 1,
+      },
+      {
+        question: "Which of these is NOT a linear data structure?",
+        options: ["Stack", "Queue", "Tree", "Array"],
+        correctAnswer: 2,
+      },
+      {
+        question: "What is the average case time complexity of searching in a hash table?",
+        options: ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+        correctAnswer: 0,
+      },
+      {
+        question: "Which algorithm is used for cycle detection in a graph?",
+        options: ["Floyd’s Algorithm", "Dijkstra", "Kruskal", "Prim"],
+        correctAnswer: 0,
+      },
+      {
+        question: "Which of these sorting algorithms has the worst-case time complexity of O(n^2)?",
+        options: ["Merge Sort", "Quick Sort", "Heap Sort", "Bubble Sort"],
+        correctAnswer: 3,
+      },
+      {
+        question: "In a min-heap, the minimum element is at:",
+        options: ["Root", "Leaf", "Left child", "Right child"],
+        correctAnswer: 0,
+      },
+    ],
+  },
+
+  {
+    category: "operating systems",
+    questions: [
+      {
+        question: "Which of these is a function of an OS?",
+        options: ["Memory Management", "Data Entry", "HTML Rendering", "Database Queries"],
+        correctAnswer: 0,
+      },
+      {
+        question: "What is a process in an OS?",
+        options: ["A program in execution", "A set of instructions", "A file", "A thread"],
+        correctAnswer: 0,
+      },
+      {
+        question: "Which scheduling algorithm may cause starvation?",
+        options: ["FCFS", "SJF", "Round Robin", "Priority Scheduling"],
+        correctAnswer: 1,
+      },
+      {
+        question: "Which memory is the fastest?",
+        options: ["RAM", "Cache", "Hard Disk", "ROM"],
+        correctAnswer: 1,
+      },
+      {
+        question: "What does a semaphore do?",
+        options: ["Manage memory", "Synchronize processes", "Execute threads", "Schedule CPU"],
+        correctAnswer: 1,
+      },
+      {
+        question: "Which is a non-preemptive scheduling algorithm?",
+        options: ["FCFS", "Round Robin", "SJF Preemptive", "Priority Preemptive"],
+        correctAnswer: 0,
+      },
+      {
+        question: "What is thrashing in OS?",
+        options: ["High CPU usage", "Excessive paging", "Deadlock", "Memory leak"],
+        correctAnswer: 1,
+      },
+      {
+        question: "Which condition leads to deadlock?",
+        options: ["Mutual Exclusion", "Hold & Wait", "No Preemption", "All of the above"],
+        correctAnswer: 3,
+      },
+      {
+        question: "Virtual memory uses:",
+        options: ["Registers", "Cache", "Disk Storage", "ROM"],
+        correctAnswer: 2,
+      },
+      {
+        question: "Which algorithm is used for page replacement?",
+        options: ["FIFO", "LRU", "Optimal", "All of the above"],
+        correctAnswer: 3,
+      },
+      {
+        question: "What is the role of the kernel?",
+        options: ["Hardware abstraction", "User Interface", "File Editing", "Web Browsing"],
+        correctAnswer: 0,
+      },
+      {
+        question: "In Round Robin scheduling, the time quantum is:",
+        options: ["CPU Burst Time", "Time Slice", "Memory Allocation", "Process ID"],
+        correctAnswer: 1,
+      },
+      {
+        question: "Which is an example of non-volatile memory?",
+        options: ["RAM", "Cache", "ROM", "Registers"],
+        correctAnswer: 2,
+      },
+      {
+        question: "Which of these is a type of OS?",
+        options: ["Batch", "Real-time", "Distributed", "All of the above"],
+        correctAnswer: 3,
+      },
+      {
+        question: "Thrashing can be reduced by:",
+        options: ["Increasing RAM", "Decreasing CPU", "Using SSD", "Increasing Page Faults"],
+        correctAnswer: 0,
+      },
+      {
+        question: "Which OS concept allows multiple processes to share a CPU?",
+        options: ["Multiprogramming", "Multithreading", "Virtual Memory", "Cache Memory"],
+        correctAnswer: 0,
+      },
+      {
+        question: "Which file system is used in Linux?",
+        options: ["FAT32", "NTFS", "EXT4", "HFS+"],
+        correctAnswer: 2,
+      },
+      {
+        question: "Which state does a process enter when waiting for a resource?",
+        options: ["Ready", "Waiting", "Running", "Terminated"],
+        correctAnswer: 1,
+      },
+      {
+        question: "What is a context switch?",
+        options: ["Switching processes", "Switching threads", "Memory allocation", "Disk I/O"],
+        correctAnswer: 0,
+      },
+      {
+        question: "Which is an example of a preemptive scheduling algorithm?",
+        options: ["FCFS", "SJF Non-preemptive", "Round Robin", "Priority Non-preemptive"],
+        correctAnswer: 2,
+      },
+    ],
+  },
+
+  {
+    category: "dbms",
+    questions: [
+      {
+        question: "What does DBMS stand for?",
+        options: ["Data Block Management System", "Database Management System", "Data Binary Management System", "Dynamic Base Management System"],
+        correctAnswer: 1,
+      },
+      {
+        question: "Which is a relational database?",
+        options: ["MongoDB", "MySQL", "Cassandra", "Redis"],
+        correctAnswer: 1,
+      },
+      {
+        question: "What is a primary key?",
+        options: ["Unique identifier for a record", "Foreign key", "Index", "Attribute"],
+        correctAnswer: 0,
+      },
+      {
+        question: "Which SQL command is used to remove a table?",
+        options: ["DELETE", "DROP", "TRUNCATE", "REMOVE"],
+        correctAnswer: 1,
+      },
+      {
+        question: "Which normal form eliminates transitive dependency?",
+        options: ["1NF", "2NF", "3NF", "BCNF"],
+        correctAnswer: 2,
+      },
+      {
+        question: "Which SQL command is used to retrieve data?",
+        options: ["SELECT", "INSERT", "UPDATE", "DELETE"],
+        correctAnswer: 0,
+      },
+      {
+        question: "Which type of relationship exists when one student enrolls in many courses?",
+        options: ["One-to-One", "One-to-Many", "Many-to-Many", "None of the above"],
+        correctAnswer: 2,
+      },
+      {
+        question: "What is a foreign key?",
+        options: ["Key from another table", "Primary key", "Index", "Constraint"],
+        correctAnswer: 0,
+      },
+      {
+        question: "Which operation is used to combine rows from two tables?",
+        options: ["JOIN", "UNION", "MERGE", "LINK"],
+        correctAnswer: 0,
+      },
+      {
+        question: "Which index type is faster for exact match queries?",
+        options: ["Hash Index", "B-Tree Index", "Bitmap Index", "Full-text Index"],
+        correctAnswer: 0,
+      },
+      {
+        question: "Which SQL command updates existing records?",
+        options: ["UPDATE", "INSERT", "MODIFY", "ALTER"],
+        correctAnswer: 0,
+      },
+      {
+        question: "Which type of DBMS stores data in key-value pairs?",
+        options: ["Relational", "Document", "NoSQL", "Hierarchical"],
+        correctAnswer: 2,
+      },
+      {
+        question: "Which of the following is a transaction property in DBMS?",
+        options: ["ACID", "CRUD", "DML", "DDL"],
+        correctAnswer: 0,
+      },
+      {
+        question: "Which SQL command removes all rows from a table without dropping it?",
+        options: ["DELETE", "TRUNCATE", "DROP", "REMOVE"],
+        correctAnswer: 1,
+      },
+      {
+        question: "What is the default isolation level in most databases?",
+        options: ["Read Uncommitted", "Read Committed", "Repeatable Read", "Serializable"],
+        correctAnswer: 1,
+      },
+      {
+        question: "Which constraint prevents duplicate values in a column?",
+        options: ["PRIMARY KEY", "FOREIGN KEY", "UNIQUE", "CHECK"],
+        correctAnswer: 2,
+      },
+      {
+        question: "Which command is used to create a new database?",
+        options: ["CREATE DATABASE", "CREATE TABLE", "INSERT DATABASE", "NEW DATABASE"],
+        correctAnswer: 0,
+      },
+      {
+        question: "Which type of join returns all records when there is a match in either table?",
+        options: ["INNER JOIN", "LEFT JOIN", "RIGHT JOIN", "FULL OUTER JOIN"],
+        correctAnswer: 3,
+      },
+      {
+        question: "Which SQL keyword is used to sort the result set?",
+        options: ["ORDER BY", "GROUP BY", "SORT", "FILTER"],
+        correctAnswer: 0,
+      },
+      {
+        question: "Which SQL command is used to remove a column from a table?",
+        options: ["DROP COLUMN", "DELETE COLUMN", "REMOVE COLUMN", "ALTER COLUMN"],
+        correctAnswer: 0,
+      },
+    ],
+  },
+
+  {
+    category: "aptitude",
+    questions: [
+      {
+        question: "If the ratio of ages of A and B is 3:4 and B is 24 years old, then A’s age is:",
+        options: ["16", "18", "20", "22"],
+        correctAnswer: 1,
+      },
+      {
+        question: "What is the next number in the series: 2, 6, 12, 20, ?",
+        options: ["28", "30", "32", "36"],
+        correctAnswer: 0,
+      },
+      {
+        question: "A train travels 60 km in 1 hour 20 minutes. Its speed is:",
+        options: ["40 km/h", "45 km/h", "50 km/h", "55 km/h"],
+        correctAnswer: 2,
+      },
+      {
+        question: "If x + y = 10 and x - y = 4, then x = ?",
+        options: ["5", "6", "7", "8"],
+        correctAnswer: 1,
+      },
+      {
+        question: "The average of 5, 8, 12, 15, 20 is:",
+        options: ["12", "12.5", "13", "13.5"],
+        correctAnswer: 1,
+      },
+      {
+        question: "If 5x = 25, then x = ?",
+        options: ["4", "5", "6", "7"],
+        correctAnswer: 1,
+      },
+      {
+        question: "What is 15% of 200?",
+        options: ["25", "30", "35", "40"],
+        correctAnswer: 1,
+      },
+      {
+        question: "If a person walks 4 km north and then 3 km east, the distance from start point is:",
+        options: ["5 km", "6 km", "7 km", "8 km"],
+        correctAnswer: 2,
+      },
+      {
+        question: "A bag contains 5 red, 6 blue and 9 green balls. Probability of picking a red ball is:",
+        options: ["5/20", "1/4", "5/19", "1/5"],
+        correctAnswer: 2,
+      },
+      {
+        question: "Solve: 3 + 6 ÷ 2 × (1 + 2) = ?",
+        options: ["12", "15", "18", "21"],
+        correctAnswer: 2,
+      },
+      {
+        question: "If 2 pencils cost Rs. 5, cost of 12 pencils is:",
+        options: ["Rs. 25", "Rs. 30", "Rs. 28", "Rs. 32"],
+        correctAnswer: 1,
+      },
+      {
+        question: "If a number is increased by 20% and then decreased by 20%, the net change is:",
+        options: ["0%", "-4%", "4%", "-2%"],
+        correctAnswer: 1,
+      },
+      {
+        question: "The compound interest on Rs. 1000 at 10% p.a. for 2 years is:",
+        options: ["Rs. 100", "Rs. 200", "Rs. 210", "Rs. 220"],
+        correctAnswer: 2,
+      },
+      {
+        question: "If the simple interest for 2 years at 5% p.a. on a sum is Rs. 100, the principal is:",
+        options: ["Rs. 900", "Rs. 1000", "Rs. 1100", "Rs. 1200"],
+        correctAnswer: 1,
+      },
+      {
+        question: "Find the missing number: 5, 10, 20, 40, ?",
+        options: ["70", "75", "80", "80"],
+        correctAnswer: 3,
+      },
+      {
+        question: "If the perimeter of a square is 40 cm, its area is:",
+        options: ["100 cm²", "120 cm²", "150 cm²", "200 cm²"],
+        correctAnswer: 0,
+      },
+      {
+        question: "If a car covers 240 km in 4 hours, speed is:",
+        options: ["50 km/h", "55 km/h", "60 km/h", "65 km/h"],
+        correctAnswer: 2,
+      },
+      {
+        question: "A cube has a volume of 64 cm³. Its surface area is:",
+        options: ["64 cm²", "96 cm²", "128 cm²", "256 cm²"],
+        correctAnswer: 2,
+      },
+      {
+        question: "If 5 workers can complete a task in 20 days, 10 workers will take:",
+        options: ["10 days", "12 days", "8 days", "15 days"],
+        correctAnswer: 2,
+      },
+      {
+        question: "A number when divided by 5 leaves a remainder 2. If the number is 12, remainder when divided by 3 is:",
+        options: ["0", "1", "2", "3"],
+        correctAnswer: 1,
+      },
+    ],
+  },
+];
