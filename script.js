@@ -7,7 +7,7 @@ const timerDisplay = document.querySelector(".time-duration");
 const resultContainer = document.querySelector(".result-container");
 let correctAnswersCount = 0;
 
-const QUIZ_TIME_LIMIT = 15;
+const QUIZ_TIME_LIMIT = 60;
 let currentTime = QUIZ_TIME_LIMIT;
 let quizCategory="programming";
 let currentQuestion = null;
@@ -148,4 +148,5 @@ const resetQuiz = () => {
 
 nextQuestionButton.addEventListener("click",renderQuestion);
 document.querySelector(".try-again-button").addEventListener("click",resetQuiz);
+
 document.querySelector(".start-quiz-button").addEventListener("click",startQuiz);
